@@ -6,11 +6,211 @@
 <body>
 
 <p>
-Нажмите, чтобы скачать или открыть презетацию:
-<a href="СетьВводный.pptx">Презентация в формате .pptx</a>
-Нажмите, чтобы скачать или открыть index.html:
-<a href="index.html">Файл проверки работы с кириллицей .html</a>
-    <p>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Новогодний кроссворд</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #c1272d;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    td {
+      width: 30px;
+      height: 30px;
+      border: 2px solid #000;
+      text-align: center;
+      vertical-align: middle;
+      font-weight: bold;
+      font-size: 18px;
+      background-color: #fff;
+    }
+    .empty {
+      background-color: #d3d3d3;
+    }
+    .word-list {
+      margin: 20px auto;
+      max-width: 600px;
+      text-align: left;
+    }
+    .word-list h2 {
+      color: #2e8b57;
+    }
+    .word-list ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Новогодний кроссворд</h1>
+
+  <!-- Кроссвордная сетка 12x12 -->
+  <table>
+    <tr>
+      <td>д</td><td>е</td><td>д</td><td>м</td><td>о</td><td>р</td><td>о</td><td>з</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td>
+    </tr>
+    <tr>
+      <td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>н</td><td>с</td><td>н</td><td>е</td><td>г</td>
+    </tr>
+    <tr>
+      <td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>е</td><td>а</td><td>а</td><td class="empty"></td><td class="empty"></td>
+    </tr>
+    <tr>
+      <td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>г</td><td>л</td><td>л</td><td>ю</td><td>т</td>
+    </tr>
+    <tr>
+      <td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>у</td><td>у</td><td>м</td><td>т</td><td class="empty"></td>
+    </tr>
+    <tr>
+      <td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>р</td><td>ш</td><td>п</td><td>а</td><td>н</td>
+    </tr>
+    <tr>
+      <td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>о</td><td>к</td><td>а</td><td>н</td><td>с</td>
+    </tr>
+    <tr>
+      <td>ё</td><td>л</td><td>к</td><td>а</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>ч</td><td>и</td><td>н</td><td>к</td><td>к</td>
+    </tr>
+    <tr>
+      <td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>к</td><td>г</td><td>с</td><td>о</td><td>о</td>
+    </tr>
+    <tr>
+      <td>п</td><td>о</td><td>д</td><td>а</td><td>р</td><td>к</td><td>и</td><td>а</td><td>р</td><td>у</td><td>е</td><td>л</td>
+    </tr>
+    <tr>
+      <td>с</td><td>н</td><td>е</td><td>г</td><td>у</td><td>р</td><td>о</td><td>ч</td><td>к</td><td>а</td><td class="empty"></td><td>в</td>
+    </tr>
+    <tr>
+      <td>ю</td><td>р</td><td>и</td><td>с</td><td>к</td><td>а</td><td>м</td><td>п</td><td>а</td><td>н</td><td>с</td><td>ь</td>
+    </tr>
+  </table>
+
+  <div class="word-list">
+    <h2>Слова в кроссворде:</h2>
+    <ul>
+      <li>Ёлка</li>
+      <li>Оливье</li>
+      <li>Игрушки</li>
+      <li>Подарки</li>
+      <li>Снег</li>
+      <li>Салют</li>
+      <li>Сюрприз</li>
+      <li>Дед Мороз</li>
+      <li>Снегурочка</li>
+      <li>Шампанское</li>
+    </ul>
+  </div>
+
+  <p><em>Подсказка: все слова расположены горизонтально или вертикально.</em></p>
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas Crossword</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      text-align: center;
+      padding: 20px;
+      color: #2c3e50;
+    }
+    h1 {
+      color: #c0392b;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    td {
+      width: 40px;
+      height: 40px;
+      border: 2px solid #000;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: #fff;
+    }
+    .black {
+      background-color: #bdc3c7;
+    }
+    .word-list {
+      max-width: 500px;
+      margin: 20px auto;
+      text-align: left;
+      padding: 15px;
+      background: #ecf0f1;
+      border-radius: 8px;
+    }
+    .word-list h2 {
+      margin-top: 0;
+      color: #27ae60;
+    }
+    .hint {
+      font-style: italic;
+      margin-top: 15px;
+      color: #7f8c8d;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎄 Christmas Crossword 🎄</h1>
+
+  <!-- Grid 7x7 with all 5 words -->
+  <table>
+    <tr>
+      <td>S</td><td class="black"></td><td class="black"></td><td>G</td><td class="black"></td><td class="black"></td><td class="black"></td>
+    </tr>
+    <tr>
+      <td>A</td><td class="black"></td><td class="black"></td><td>I</td><td class="black"></td><td>S</td><td class="black"></td>
+    </tr>
+    <tr>
+      <td>N</td><td class="black"></td><td>T</td><td>F</td><td>R</td><td>N</td><td class="black"></td>
+    </tr>
+    <tr>
+      <td>T</td><td class="black"></td><td>R</td><td>T</td><td>E</td><td>O</td><td class="black"></td>
+    </tr>
+    <tr>
+      <td>A</td><td>B</td><td>E</td><td class="black"></td><td class="black"></td><td>W</td><td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td><td>E</td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td><td>L</td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td>
+    </tr>
+  </table>
+
+  <div class="word-list">
+    <h2>Words in the crossword:</h2>
+    <ul>
+      <li><strong>Santa</strong> — (vertical, column 0, rows 0–4)</li>
+      <li><strong>Gift</strong> — (vertical, column 3, rows 0–3)</li>
+      <li><strong>Tree</strong> — (horizontal, row 3, columns 2–5)</li>
+      <li><strong>Snow</strong> — (vertical, column 5, rows 1–4)</li>
+      <li><strong>Bell</strong> — (vertical, column 1, rows 4–7)</li>
+    </ul>
+  </div>
+
+  <p class="hint">💡 All words are placed vertically or horizontally. Gray cells are empty.</p>
+</body>
+</html>
+ 
+</body>
+</html>
+
 
 </body>
 </html>
