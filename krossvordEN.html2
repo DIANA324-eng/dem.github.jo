@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas Crossword</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      text-align: center;
+      padding: 20px;
+      color: #2c3e50;
+    }
+    h1 {
+      color: #c0392b;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    td {
+      width: 40px;
+      height: 40px;
+      border: 2px solid #000;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: #fff;
+    }
+    .black {
+      background-color: #bdc3c7;
+    }
+    .word-list {
+      max-width: 500px;
+      margin: 20px auto;
+      text-align: left;
+      padding: 15px;
+      background: #ecf0f1;
+      border-radius: 8px;
+    }
+    .word-list h2 {
+      margin-top: 0;
+      color: #27ae60;
+    }
+    .hint {
+      font-style: italic;
+      margin-top: 15px;
+      color: #7f8c8d;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎄 Christmas Crossword 🎄</h1>
+
+  <!-- Grid 7x7 with all 5 words -->
+  <table>
+    <tr>
+      <td>S</td><td class="black"></td><td class="black"></td><td>G</td><td class="black"></td><td class="black"></td><td class="black"></td>
+    </tr>
+    <tr>
+      <td>A</td><td class="black"></td><td class="black"></td><td>I</td><td class="black"></td><td>S</td><td class="black"></td>
+    </tr>
+    <tr>
+      <td>N</td><td class="black"></td><td>T</td><td>F</td><td>R</td><td>N</td><td class="black"></td>
+    </tr>
+    <tr>
+      <td>T</td><td class="black"></td><td>R</td><td>T</td><td>E</td><td>O</td><td class="black"></td>
+    </tr>
+    <tr>
+      <td>A</td><td>B</td><td>E</td><td class="black"></td><td class="black"></td><td>W</td><td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td><td>E</td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td><td>L</td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td>
+    </tr>
+  </table>
+
+  <div class="word-list">
+    <h2>Words in the crossword:</h2>
+    <ul>
+      <li><strong>Santa</strong> — (vertical, column 0, rows 0–4)</li>
+      <li><strong>Gift</strong> — (vertical, column 3, rows 0–3)</li>
+      <li><strong>Tree</strong> — (horizontal, row 3, columns 2–5)</li>
+      <li><strong>Snow</strong> — (vertical, column 5, rows 1–4)</li>
+      <li><strong>Bell</strong> — (vertical, column 1, rows 4–7)</li>
+    </ul>
+  </div>
+
+  <p class="hint">💡 All words are placed vertically or horizontally. Gray cells are empty.</p>
+</body>
+</html>
