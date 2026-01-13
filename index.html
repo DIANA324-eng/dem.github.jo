@@ -1,56 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой блог</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #fafafa;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-            justify-content: center;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            margin: 0;
-            color: #2c3e50;
-        }
-
-        .date {
-            font-size: 1.2rem;
-            color: #7f8c8d;
-            margin-top: 10px;
-        }
-    </style>
+    <title>Блог Дианы</title>
 </head>
 <body>
-    <header>
-        <h1>Мой блог</h1>
-        <div class="date" id="current-date"></div>
-    </header>
-
-    <script>
-        // Получаем сегодняшнюю дату (с учётом локали)
-        const now = new Date();
-        const options = { year: 'numeric', month: 'long', day: 'numeric' };
-        const formattedDate = now.toLocaleDateString('ru-RU', options);
-
-        // Вставляем дату на страницу
-        document.getElementById('current-date').textContent = formattedDate;
-    </script>
+    <h1>Диана</h1>
 </body>
 </html>
